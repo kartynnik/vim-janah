@@ -10,11 +10,11 @@ if exists('syntax_on')
   syntax reset
 endif
 
-highlight Normal guifg=#dadada ctermfg=253 guibg=#262626 gui=NONE cterm=NONE
+highlight Normal ctermbg=black guibg=black
 
 " Misc {{{1
 
-highlight Comment guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+highlight Comment ctermfg=245 guifg=#8a8aa0
 highlight Constant guifg=#87dfdf ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight Directory guifg=#ffaf87 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight EndOfBuffer guifg=#262626 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -62,10 +62,10 @@ highlight ColorColumn ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 
 highlight SignColumn ctermfg=NONE guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 
-highlight DiffAdd guifg=#87ff5f ctermfg=119 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight DiffDelete guifg=#df5f5f ctermfg=167 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight DiffChange guifg=#ffff5f ctermfg=227 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-highlight DiffText guifg=#ff5f5f ctermfg=203 guibg=#5f0000 ctermbg=52 gui=bold cterm=bold
+highlight DiffAdd guifg=NONE guibg=#204204
+highlight DiffChange guifg=NONE guibg=#23132b
+highlight DiffDelete guifg=#1c1c1c guibg=#1c1c1c
+highlight DiffText guifg=NONE guibg=#204a7d
 
 " Folds {{{1
 
@@ -74,8 +74,8 @@ highlight Folded ctermfg=102 ctermbg=237 cterm=NONE guifg=#878787 guibg=#3a3a3a 
 
 " Search {{{1
 
-highlight IncSearch guifg=#c0c0c0 ctermfg=7 guibg=#005fff ctermbg=27 gui=NONE cterm=NONE
-highlight Search guifg=#c0c0c0 ctermfg=7 guibg=#df005f ctermbg=161 gui=NONE cterm=NONE
+highlight Search ctermbg=229 ctermfg=black guibg=#ffffaf guifg=black
+highlight IncSearch ctermbg=229 ctermfg=black guibg=#ffffaf guifg=black
 
 " Messages {{{1
 
