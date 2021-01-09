@@ -10,11 +10,11 @@ if exists('syntax_on')
   syntax reset
 endif
 
-highlight Normal guifg=#dadada guibg=black ctermbg=black
+highlight Normal guifg=#eaeaea ctermfg=253 guibg=black ctermbg=black
 
 " Misc {{{1
 
-highlight Comment ctermfg=245 guifg=#8a8aa0
+highlight Comment guifg=#8a8aa0 ctermfg=245
 highlight Constant guifg=#87dfdf ctermfg=116 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight Directory guifg=#ffaf87 ctermfg=216 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight EndOfBuffer guifg=#262626 ctermfg=235 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
