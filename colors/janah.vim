@@ -1,8 +1,9 @@
 " vim: et sw=2 sts=2
 
-" Plugin:      https://github.com/mhinz/vim-janah
-" Description: A 256 colors colorscheme for Vim.
-" Maintainer:  Marco Hinz <http://github.com/mhinz>
+" Plugin:        https://github.com/mhinz/vim-janah
+" Description:   A 256 colors colorscheme for Vim.
+" Maintainer:    Marco Hinz <https://github.com/mhinz>
+" With edits by: Yury Kartynnik <https://github.com/kartynnik>
 
 highlight clear
 
@@ -32,6 +33,7 @@ highlight Todo guifg=#ffdfaf ctermfg=223 guibg=NONE ctermbg=NONE gui=NONE cterm=
 highlight Type guifg=#87dfaf ctermfg=115 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight VertSplit guifg=#3a3a3a ctermfg=237 guibg=#3a3a3a ctermbg=237 gui=NONE cterm=NONE
 highlight WildMenu guifg=#df005f ctermfg=161 guibg=#3a3a3a ctermbg=237 gui=bold cterm=bold
+highlight Whitespace ctermbg=NONE guifg=#303030 ctermfg=236 gui=NONE cterm=NONE
 
 " Cursor lines {{{1
 
