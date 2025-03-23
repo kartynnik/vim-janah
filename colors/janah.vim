@@ -141,7 +141,7 @@ highlight StartifySpecial guifg=#585858 ctermfg=240 guibg=NONE ctermbg=NONE gui=
 highlight TermCursor ctermfg=NONE guibg=#ff00af ctermbg=199 gui=NONE cterm=NONE
 highlight TermCursorNC ctermfg=NONE guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 highlight Whitespace ctermbg=NONE guifg=#303030 ctermfg=236 gui=NONE cterm=NONE
-highlight Function guifg=#afff87 ctermfg=156 guibg=NONE ctermbg=NONE
+highlight Function guifg=#7d8fe8 ctermfg=69 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " HTML {{{1
 
